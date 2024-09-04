@@ -5,3 +5,37 @@
     width: 100%;
     height: 60vh;
 }
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.pizza{
+    background: url(./images/pizza.jpg);
+    color: white;
+    width: 22vw;
+    height: 60vh;
+}
+.burger{
+    background: url(./images/burger.jpg);
+    color: white;
+    width: 22vw;
+    height: 60vh;
+}
+@media (max-width:1000px) {
+    .cardContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .pizza{
+        width: 60vw;
+    }
+    .burger{
+        width: 60vw;
+    }
+}
