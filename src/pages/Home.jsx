@@ -2,6 +2,7 @@
 // import burger from '../images/burger.jfif'
 import '../App.css'
 import Card from '../components/Card'
+import MenuCards from '../components/MenuCards'
 
 const Home = () => {
   // const foodCards = [
@@ -42,6 +43,16 @@ const Home = () => {
           Explore Foods
         </h2>
         <Card/>
+      </section>
+
+      {/* Menu Cards */}
+      <section className='mx-auto bg-gray-200'>
+        <h2 className='text-3xl font-bold text-gray-700 mt-6 flex justify-center'>
+          Food Menu
+        </h2>
+        <MenuCards/>
+        <MenuCards/>
+        <MenuCards/>
       </section>
     </div>
   )
