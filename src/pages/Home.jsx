@@ -1,28 +1,8 @@
-// import pizza from '../images/pizza.jpg'
-// import burger from '../images/burger.jfif'
 import '../App.css'
 import Card from '../components/Card'
 import MenuCards from '../components/MenuCards'
 
 const Home = () => {
-  // const foodCards = [
-  //   {
-  //     id: 1,
-  //     imgUrl: pizza,
-  //     name: 'Pizza'
-  //   },
-  //   {
-  //     id: 2,
-  //     imgUrl: burger,
-  //     name: 'Burger'
-  //   },
-  //   {
-  //     id: 3,
-  //     imgUrl: pizza,
-  //     name: 'Pizza'
-  //   }
-  // ]
-
   return (
     <div>
       {/* Hero Section */}
