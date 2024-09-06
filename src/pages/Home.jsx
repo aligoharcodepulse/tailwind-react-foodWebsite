@@ -47,7 +47,7 @@ const Home = () => {
 
       {/* Menu Cards */}
       <section className='mx-auto bg-gray-200'>
-        <h2 className='text-3xl font-bold text-gray-700 mt-6 flex justify-center'>
+        <h2 className='text-3xl font-bold text-gray-700 mt-6 flex justify-center pt-3'>
           Food Menu
         </h2>
         <MenuCards/>
