@@ -5,7 +5,7 @@ import '../App.css'
 const MenuCards = () => {
   return (
     <div className='menuCards'>
-      <div className='flex md:flex-row m-2 border rounded-md p-3 gap-x-2 w-full md:w-[70%] bg-white'>
+      <div className='flex sm:flex-row m-2 border rounded-md p-3 gap-x-2 w-full md:w-[80%] bg-white'>
         <img className='w-28 h-28 object-cover rounded-md' src={Pizza} alt="Pizza" />
         <div className='flex flex-col'>
           <span className='font-bold text-xl'>Pizza</span>
@@ -15,7 +15,7 @@ const MenuCards = () => {
         </div>
       </div>
 
-      <div className='flex md:flex-row m-2 border rounded-md p-3 gap-x-2 w-full md:w-[70%] bg-white'>
+      <div className='flex md:flex-row m-2 border rounded-md p-3 gap-x-2 w-full md:w-[80%] bg-white'>
         <img className='w-28 h-28 object-cover rounded-md' src={Burger} alt="Burger" />
         <div className='flex flex-col'>
           <span className='font-bold text-xl'>Burger</span>
